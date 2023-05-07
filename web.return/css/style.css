@@ -1,0 +1,168 @@
+*{
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    max-width: 2180px;
+}
+
+.logo img{
+    width: 60px;
+    max-width: 90px;
+}
+
+.account{
+    display: flex;
+    justify-content: right;
+}
+
+.account img{
+    width: 20%;
+    max-width: 60px;
+}
+
+.menu{
+    display: flex;
+    justify-content: space-between;
+    padding-bottom: 20px;
+}
+
+.menu a{
+    font-family: "Swei Spring CJK TC";
+    text-align-last: center;
+    text-decoration: none;
+    color: #F55723;
+    font-size: 20px;
+}
+
+.row-top{
+    display: flex;
+    justify-content:space-between;
+    align-items:center;
+    padding-bottom: 15px;
+    padding-top: 30px;
+}
+
+.container .banner {
+	margin-top: 20px;
+}
+
+.col-md-6{
+    display: flex;
+    padding-top: 20px;
+}
+
+.col-md-2 a{
+    text-decoration: none;
+    text-align: center;
+    font-family: "Swei Spring CJK TC";
+    color: #202020;
+}
+
+.col-md-4{
+    display: flex;
+}
+
+iframe{
+    display: flex;
+    align-items: center;
+}
+
+.row-about{
+    padding-top: 30px;
+    padding-bottom: 15px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.row-about p{
+    text-align-last: center;
+    text-decoration: none;
+    font-family: "Swei Spring CJK TC";
+    font-style:normal;
+    font-weight: 350;
+    font-size: 1rem;
+    line-height: 35px;
+    color: rgb(65, 20, 20);
+    letter-spacing: 2px;
+}
+
+.container h2{
+    text-align: center;
+    font-family: "Swei Spring CJK TC";
+    font-size: 40px;
+    color: #F55723;
+    padding-top: 60px;
+    font-weight: 90px;
+}
+
+.row-service{
+    padding-top: 30px;
+    padding-bottom: 15px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    text-align: center;
+}
+
+.row-contact{
+    padding-top: 15px;
+    padding-bottom: 15px;
+    display: flex;
+    justify-content: center;
+}
+
+label{
+    padding-top: 10px;
+    padding-bottom: 10px;
+    font-family: "Swei Spring CJK TC";
+}
+
+input{
+    font-size: 14px;
+    font-family: "Swei Spring CJK TC";
+}
+
+.col-md-3{
+    padding-right: 3rem;
+}
+
+.col-mf-5{
+    padding-left: 3rem;
+}
+
+.col-md-4 img{
+    width: 50%;
+}
+
+.col-1{
+    padding-top: 30px;
+    padding-bottom: 120px;
+}
+
+.col-6 a{
+    width:90%;
+    max-width: none;
+    display: flex;
+    align-items: center;
+}
+
+footer{
+    background-color: rgb(40, 40, 40);
+    text-align: center;
+    text-justify: auto;
+    padding: 30px;
+    display: flex;
+    align-items:flex-end;
+    justify-content: center;
+    margin-top: 50px;
+}
+
+footer p{
+    font-family: "Swei Spring CJK TC";
+    color: #F4F1EA;
+    font-style:normal;
+    font-size: 16px;
+    line-height: 40px;
+    letter-spacing: 2px;
+}
